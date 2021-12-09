@@ -1,0 +1,84 @@
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emp-title {
+    color: #42515F;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.search-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.add-btn {
+    margin-left: 10px;
+    padding: 10px 30px;
+    background-color: #82A70C;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.plus-icon {
+    font-size: 12px;
+}
+
+.dashboard-table {
+    width: 80%;
+    margin: 25px auto;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    background-color: #42515F;
+    letter-spacing: 1px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.name-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-margin {
+    margin-left: 20px;
+}
+
+.icon {
+    font-size: 22px;
+    margin-right: 8px;
+    cursor: pointer;
+    color: black;
+}
+
+.red-color {
+    color: red;
+}

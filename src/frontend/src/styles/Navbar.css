@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 0px;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(53, 53, 53, 0.1);
+}
+
+.logo-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    width: 80%;
+}
+
+.logo-text {
+    text-align: left;
+    text-transform: uppercase;
+    color: #82A70C;
+    font: normal normal 600 20px/18px 'Poppins';
+    margin-left: 4px;
+}
+
+.logo-text-color {
+    color: #42515F;
+}

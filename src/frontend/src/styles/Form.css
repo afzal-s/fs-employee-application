@@ -1,0 +1,108 @@
+.form-container {
+    border-radius: 5px;
+    max-width: 60%;
+    background-color: #fff;
+    display: flex;
+    padding: 10px 16px;
+    margin: 25px auto;
+    border-bottom: 1px solid #fafafa;
+}
+
+.form-container:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-content {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.form-heading {
+    font-size: 25px;
+    font-weight: 500;
+    background: linear-gradient(to right, #82A70C, #42515F);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.row-content {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.form-label {
+    margin-right: 70px;
+}
+
+.form-label-date {
+    margin-right: 40px;
+}
+
+
+.label {
+    margin-right: 74px;
+}
+
+.form-input {
+    padding: 6px 12px;
+    width: 80%;
+}
+
+.date {
+    width: 27%;
+}
+
+.salary {
+    width: 25%;
+}
+
+.form-gender-label {
+    margin-right: 60px;
+}
+
+.form-dept-label {
+    margin-right: 22px;
+}
+
+.radio-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    margin-right: 30px;
+    width: 40px;
+}
+
+.radio {
+    margin-right: 8px;
+}
+
+.gender-label {
+    margin-right: 18px;
+}
+
+.btn-container {
+    display: flex;
+    /* border: 1px solid #000000; */
+    margin: 14px 0;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.btn {
+    padding: 8px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #82A70C;
+}
+
+.btn:hover {
+    background-color: #42515F;
+}
